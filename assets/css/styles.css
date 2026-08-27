@@ -1,7 +1,14 @@
+:root{
+    --text-gray: #9aa3bd;
+    --bg-dark: #111;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Anton", sans-serif;
 }
 
 .header-menu {
@@ -19,4 +26,12 @@
         gap: 20px;
         align-items: center;
     }
+
+    .item
+        .link{
+            color: #9aa3bd;
+            text-decoration: none;
+
+        }
+    
 }
